@@ -1,0 +1,17 @@
+// Copyright 2020 CrowdStrike Holdings, Inc.
+//
+// Use of this source code is governed by the MIT License.
+
+syntax = "proto3";
+
+package apbf;
+
+message Snapshot {
+    uint64 k = 1;
+    uint64 l = 2;
+    uint64 g = 3;
+    uint64 r = 4;
+    uint64 base = 5;
+    uint64 count = 6;
+    bytes buffer = 7;
+}
